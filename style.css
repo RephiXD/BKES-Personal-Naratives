@@ -136,7 +136,7 @@ footer {
 /* Split Layout */
 .split-container {
   display: flex;
-  height: 95vh;
+  height: 100vh;
   overflow: hidden;
 }
 
