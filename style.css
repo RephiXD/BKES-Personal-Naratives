@@ -133,3 +133,31 @@ footer {
   text-decoration: underline;
 }
 
+/* Split Layout */
+.split-container {
+  display: flex;
+  height: 100vh; /* Full screen height */
+  overflow: hidden;
+}
+
+/* Left Section: Scrollable Text */
+.text-section {
+  flex: 1;
+  padding: 2em;
+  overflow-y: auto;
+  background-color: #fff;
+}
+
+.text-section .signature {
+  text-align: right;
+  font-style: italic;
+  margin-top: 2em;
+}
+
+/* Right Section: Static Image */
+.image-section {
+  flex: 1;
+  background-image: url('../images/default.jpg'); /* You can override this per page if needed */
+  background-size: cover;
+  background-position: center;
+}
