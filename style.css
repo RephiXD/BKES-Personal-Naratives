@@ -5,6 +5,7 @@ body {
   color: #333;
   margin: 0;
   padding: 20px;
+  overflow: hidden;
 }
 
 header {
@@ -160,4 +161,18 @@ footer {
   background-image: url('../illustrations/letter5.png'); /* You can override this per page if needed */
   background-size: cover;
   background-position: center;
+}
+
+@media (max-width: 768px) {
+  .image-section {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+  }
+
+  .text-section {
+    width: 100%;
+    height: auto;
+    padding: 1.5em;
+  }
 }
