@@ -157,7 +157,7 @@ footer {
 /* Right Section: Static Image */
 .image-section {
   flex: 1;
-  background-image: url('../images/default.jpg'); /* You can override this per page if needed */
+  background-image: url('../illustrations/letter5.png'); /* You can override this per page if needed */
   background-size: cover;
   background-position: center;
 }
